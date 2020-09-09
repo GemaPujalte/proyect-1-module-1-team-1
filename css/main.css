@@ -1,25 +1,3 @@
-.header {
-  position: relative;
-  height: 550px;
-  width: 100%;
-  border: 2px solid black;
-  background-image: url(../imagen/20150914_281627_PowerRangersRebootE_1_22.jpg);
-  background-repeat: no-repeat;
-}
-
-.claim {
-  height: 90px;
-  width: 574px;
-  bottom: 0px;
-  margin-left: 138px;
-  margin-right: 488px;
-  position: absolute;
-  background-color: lightgrey;
-  justify-content: center;
-  font-size: 40px;
-  font-style: italic;
-}
-
 :root {
   --blue-green: #099d8d;
 }
@@ -49,7 +27,6 @@ a {
 /* end reset */
 
 /* menu */
-
 header {
   width: 100%;
   box-sizing: border-box;
@@ -76,9 +53,41 @@ header {
   color: white;
   padding: 18px;
 }
-
 /* end menu */
 
+/* header */
+.header {
+  position: relative;
+  height: 550px;
+  width: 100%;
+  border: 2px solid black;
+  background-image: url(../imagen/20150914_281627_PowerRangersRebootE_1_22.jpg);
+  background-repeat: no-repeat;
+}
+
+.claim {
+  height: 90px;
+  width: 574px;
+  bottom: 0px;
+  margin-left: 138px;
+  margin-right: 488px;
+  position: absolute;
+  background-color: lightgrey;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+}
+/* end header */
+
+/* equipo */
+
+/* end equipo */
+
+/* fortalezas y debilidades */
+
+/* end fortalezas y debilidades */
+
+/* quienes somos */
 .us {
   width: 1200px;
   height: 1483px;
@@ -90,3 +99,7 @@ header {
   font-size: 24px;
   color: var(--blue-green);
 }
+/* end quienes somos */
+
+/* footer */
+/* end footer */
