@@ -1,1 +1,11 @@
-
+.us {
+  width: 1200px;
+  height: 1483px;
+}
+.quienes_somos {
+  width: 193px;
+  height: 45px;
+  font-family: Rubik;
+  font-size: 24px;
+  color: var(--blue-green);
+}
