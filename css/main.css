@@ -113,6 +113,17 @@ header nav {
   width: 50%;
   margin: 0 auto;
   padding: 45px;
+  color: #b8b8b9;
+  position: relative;
+}
+.square {
+  width: 30px;
+  height: 30px;
+  background: white;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: rotate(45deg);
 }
 
 /* end equipo */
@@ -158,6 +169,10 @@ h3 {
     background: none;
     width: auto;
     padding: 0 6%;
+  }
+
+  .about {
+    width: 88%;
   }
 }
 
