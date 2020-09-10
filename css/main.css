@@ -89,25 +89,23 @@ header nav {
 /* header */
 .header {
   position: relative;
-  height: 550px;
+  height: 421px;
   width: 100%;
-  border: 2px solid black;
   background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .claim {
-  height: 90px;
-  width: 574px;
+  height: 80px;
+  width: 290px;
   bottom: 0px;
   margin-left: 138px;
   margin-right: 488px;
   position: absolute;
-  background-color: lightgrey;
+  background-color: white;
   justify-content: center;
-  font-size: 40px;
+  font-size: 18px;
   font-style: italic;
-  opacity: 0.7;
   text-decoration: solid;
 }
 /* end header */
@@ -184,9 +182,16 @@ h3 {
 }
 .texto {
   font-size: 16px;
-  align: center;
+  background-color: white;
 
-  margin: 100px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-right: 15px;
+  margin-bottom: 45px;
+  padding-left: 15px;
+  font-family: OpenSans;
+  width: 320px;
 }
 /* end quienes somos */
 
@@ -270,14 +275,14 @@ h3 {
   .header {
     position: relative;
     height: 421px;
-    width: 768px;
-    border: 2px solid black;
+    width: 100%;
     background-repeat: no-repeat;
   }
 
   .claim {
     height: 80px;
     width: 441px;
+    bottom: 0px;
     opacity: 0.8;
     position: absolute;
   }
@@ -287,13 +292,14 @@ h3 {
   .header {
     position: relative;
     height: 550;
+    background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
     width: 100%;
-    border: 2px solid black;
     background-repeat: no-repeat;
   }
 
   .claim {
     height: 90px;
+    font-size: 24px;
     width: 574px;
     opacity: 0.8;
     position: absolute;
