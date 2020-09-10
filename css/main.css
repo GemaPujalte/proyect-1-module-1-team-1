@@ -89,11 +89,11 @@ header nav {
 .header {
   position: relative;
   height: 421px;
-  width: 320px;
-  border: 2px solid black;
-  background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
-  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png); */
+  background-repeat: repeat;
 }
+
 
 .claim {
   height: 80px;
@@ -265,8 +265,7 @@ h3 {
   .header {
     position: relative;
     height: 421px;
-    width: 768px;
-    border: 2px solid black;
+    width: 100%;
     background-repeat: no-repeat;
   }
 
@@ -283,13 +282,13 @@ h3 {
   .header {
     position: relative;
     height: 550;
+    background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
     width: 100%;
-    border: 2px solid black;
     background-repeat: no-repeat;
-  }
 
   .claim {
     height: 90px;
+    font-size: 24px;
     width: 574px;
     opacity: 0.8;
     position: absolute;
