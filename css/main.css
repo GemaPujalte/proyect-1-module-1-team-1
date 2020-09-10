@@ -6,7 +6,7 @@
 /* style reset */
 
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -114,9 +114,9 @@ header nav {
 /* equipo */
 
 .about {
-  width: 50%;
+  width: 88%;
   margin: 0 auto;
-  padding: 45px;
+  padding: 45px 0;
   color: #b8b8b9;
   position: relative;
 }
@@ -126,7 +126,7 @@ header nav {
   background: white;
   position: absolute;
   bottom: -15px;
-  left: 50%;
+  left: calc(50% - 15px);
   transform: rotate(45deg);
 }
 
@@ -209,18 +209,18 @@ h3 {
     padding: 0 6%;
   }
 
-  .about {
-    width: 88%;
-  }
-}
+  @media all and (min-width: 1200px) {
+    h1 {
+      padding: 1rem 12%;
+    }
 
-@media all and (min-width: 1200px) {
-  h1 {
-    padding: 1rem 12%;
-  }
+    header nav {
+      padding: 0 12%;
+    }
 
-  header nav {
-    padding: 0 12%;
+    .about {
+      width: 50%;
+    }
   }
 }
 
