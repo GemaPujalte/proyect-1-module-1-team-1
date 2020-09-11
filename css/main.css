@@ -90,6 +90,7 @@ header nav {
 /* header */
 .header {
   position: relative;
+  overflow: hidden;
   height: 421px;
   width: 100%;
   background-image: url(../imagen/descarga.jfif);
@@ -219,7 +220,10 @@ h3 {
 }
 
 .footer-copy {
+  font-weight: normal;
   color: var(--gunmetal);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 .menu-footer {
