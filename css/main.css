@@ -1,6 +1,7 @@
 :root {
   --blue-green: #099d8d;
   --light-green: #14d9c4;
+  --gunmetal: #b8b8b9;
 }
 
 /* style reset */
@@ -90,10 +91,9 @@ header nav {
   position: relative;
   height: 421px;
   width: 100%;
-  background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png); */
+  background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
   background-repeat: repeat;
 }
-
 
 .claim {
   height: 80px;
@@ -200,9 +200,11 @@ h3 {
 
 /* footer */
 .footer {
+  box-sizing: border-box;
   background-color: #fff;
   border-top: solid 1px #b8b8b9;
   width: 100%;
+  height: 250px;
 }
 
 .container {
@@ -213,28 +215,29 @@ h3 {
   align-items: center;
 }
 
+.footer-copy {
+  color: var(--gunmetal);
+}
+
 .menu-footer {
   width: 114px;
-  height: 60px;
   opacity: 0.75;
+  text-align: center;
+  color: #b8b8b9;
   font-family: OpenSans;
   font-size: 14px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.43;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--gunmetal);
+  margin: 0px;
 }
 
 .li-bullets {
   list-style: none;
 }
 
-.logo {
-  width: 115.9px;
+.footer-logo {
+  width: 116px;
   height: 45px;
+  padding-top: 20px;
 }
 
 /* end footer */
@@ -295,6 +298,7 @@ h3 {
     background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
     width: 100%;
     background-repeat: no-repeat;
+  }
 
   .claim {
     height: 90px;
