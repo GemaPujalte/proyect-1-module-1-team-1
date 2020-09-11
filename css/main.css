@@ -176,10 +176,11 @@ h3 {
   border: solid 5px rgba(0, 0, 0, 0.08);
   display: block;
   margin: auto;
+  overflow: hidden;
 }
 
 .imagen img {
-  max-width: 180px;
+  max-width: 100%;
 }
 .adalaber {
   flex-direction: column;
