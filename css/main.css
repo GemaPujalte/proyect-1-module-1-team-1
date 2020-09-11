@@ -121,6 +121,10 @@ header nav {
   color: #b8b8b9;
   position: relative;
 }
+
+.parrafo {
+  line-height: 24px;
+}
 .square {
   width: 30px;
   height: 30px;
@@ -190,7 +194,6 @@ h3 {
 .texto {
   font-size: 16px;
   background-color: white;
-
   width: 50%;
   margin: 0 auto;
   padding-top: 30px;
@@ -308,5 +311,44 @@ h3 {
     opacity: 0.8;
     position: absolute;
     line-height: 30px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .about {
+    width: 768px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .f-d {
+    width: 768px;
+    display: flex;
+  }
+
+  .debilidades {
+    width: 50%;
+  }
+  .fortalezas {
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .about {
+    width: 1200px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .f-d {
+    width: 1200px;
+  }
+
+  .debilidades {
+    width: 50%;
+  }
+  .fortalezas {
+    width: 50%;
   }
 }
