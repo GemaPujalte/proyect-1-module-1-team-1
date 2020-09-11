@@ -90,6 +90,7 @@ header nav {
 /* header */
 .header {
   position: relative;
+  overflow: hidden;
   height: 421px;
   width: 100%;
   background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
@@ -220,6 +221,7 @@ h3 {
 
 .footer-copy {
   color: var(--gunmetal);
+  font-family: "Open Sans", sans-serif;
 }
 
 .menu-footer {
