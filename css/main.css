@@ -92,7 +92,7 @@ header nav {
   height: 421px;
   width: 100%;
   background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
-  background-repeat: repeat;
+  
 }
 
 .claim {
@@ -179,7 +179,6 @@ h3 {
 
   .imagen > img {
     max-width: 180px;
-  }
 }
 .adalaber {
   flex-direction: column;
@@ -280,7 +279,6 @@ h3 {
   .header {
     position: relative;
     height: 421px;
-    width: 100%;
     background-repeat: no-repeat;
   }
 
