@@ -94,7 +94,6 @@ header nav {
   background-repeat: repeat;
 }
 
-
 .claim {
   height: 80px;
   width: 290px;
@@ -105,8 +104,10 @@ header nav {
   background-color: white;
   justify-content: center;
   font-size: 18px;
-  font-style: italic;
+  font-family: "Open Sans", sans-serif;
   text-decoration: solid;
+  line-height: 25px;
+  
 }
 /* end header */
 
@@ -175,6 +176,7 @@ h3 {
   border: solid 5px rgba(0, 0, 0, 0.08);
   display: block;
   margin: auto;
+
 }
 .adalaber {
   flex-direction: column;
@@ -292,5 +294,6 @@ h3 {
     width: 574px;
     opacity: 0.8;
     position: absolute;
+    line-height: 30px;
   }
 }
