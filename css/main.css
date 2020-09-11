@@ -92,7 +92,7 @@ header nav {
   position: relative;
   height: 421px;
   width: 100%;
-  background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
+  background-image: url(../imagen/descarga.jfif);
 }
 
 .claim {
@@ -278,9 +278,8 @@ h3 {
 
 @media all and (min-width: 768px) {
   .header {
-    position: relative;
     height: 421px;
-    background-repeat: no-repeat;
+    background-image: url(../imagen/descarga.jfif);
   }
 
   .claim {
@@ -294,11 +293,8 @@ h3 {
 
 @media all and (min-width: 1200px) {
   .header {
-    position: relative;
     height: 550;
-    background-image: url(../imagen/d8gjula-1de2331d-b010-426c-859f-ee22966e1159.png);
-    width: 100%;
-    background-repeat: no-repeat;
+    background-image: url(../imagen/descarga.jfif);
   }
   .claim {
     height: 90px;
