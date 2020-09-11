@@ -218,7 +218,10 @@ h3 {
 }
 
 .footer-copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
   color: var(--gunmetal);
+  font-size: 14px;
 }
 
 .menu-footer {
