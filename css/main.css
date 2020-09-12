@@ -106,9 +106,11 @@ header nav {
   background-color: white;
   justify-content: center;
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: OpenSans;
+  padding: 14px 15px 16px 15px;
   text-decoration: solid;
   line-height: 25px;
+  box-sizing: border-box;
 }
 /* end header */
 
