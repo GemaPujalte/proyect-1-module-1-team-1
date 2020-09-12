@@ -90,7 +90,6 @@ header nav {
 /* header */
 .header {
   position: relative;
-  overflow: hidden;
   height: 421px;
   width: 100%;
   background-image: url(../imagen/descarga.jfif);
@@ -220,10 +219,7 @@ h3 {
 }
 
 .footer-copy {
-  font-weight: normal;
   color: var(--gunmetal);
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
 }
 
 .menu-footer {
@@ -264,6 +260,21 @@ h3 {
     background: none;
     width: auto;
     padding: 0 6%;
+  }
+  .us {
+  }
+
+  .adalaber {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .adalab_right {
+    flex-direction: column;
+  }
+
+  .adalab_left {
+    flex-direction: column-reverse;
   }
 
   @media all and (min-width: 1200px) {
