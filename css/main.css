@@ -85,6 +85,7 @@ header nav {
   color: white;
   padding: 0 0.5rem;
 }
+
 /* end menu */
 
 /* header */
@@ -109,6 +110,7 @@ header nav {
   text-decoration: solid;
   line-height: 25px;
 }
+
 /* end header */
 
 /* equipo */
@@ -120,6 +122,7 @@ header nav {
   color: #b8b8b9;
   position: relative;
 }
+
 .square {
   width: 30px;
   height: 30px;
@@ -162,6 +165,7 @@ h3 {
   font-family: Rubik;
   flex-direction: row;
 }
+
 .quienes_somos {
   height: 45px;
   font-family: Rubik;
@@ -169,6 +173,7 @@ h3 {
   color: var(--blue-green);
   text-align: center;
 }
+
 .imagen {
   width: 180px;
   height: 180px;
@@ -177,28 +182,32 @@ h3 {
   display: block;
   margin: auto;
   overflow: hidden;
+  flex: 1;
 }
 
 .imagen img {
   max-width: 100%;
 }
+
 .adalaber {
   flex-direction: column;
   font-family: OpenSans;
 }
+
 .texto {
   font-size: 16px;
   background-color: white;
-
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-right: 15px;
-  margin-bottom: 45px;
-  padding-left: 15px;
-  font-family: OpenSans;
-  width: 320px;
+  flex: 2
 }
+
+.adalab_left>.texto {
+  margin-right: 50px;
+}
+
+.adalab_right>.texto {
+  margin-left: 50px;
+}
+
 /* end quienes somos */
 
 /* footer */
@@ -261,20 +270,33 @@ h3 {
     width: auto;
     padding: 0 6%;
   }
-  .us {
-  }
+
+  .us {}
 
   .adalaber {
     display: flex;
-    flex-direction: row;
-  }
-
-  .adalab_right {
     flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+
   }
 
   .adalab_left {
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    text-align: right;
+
+  }
+
+  .adalab_right {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+  .imagen {
+    width: 278px;
+    height: 278px;
   }
 
   @media all and (min-width: 1200px) {
@@ -290,34 +312,35 @@ h3 {
       width: 50%;
     }
   }
-}
 
-@media all and (min-width: 768px) {
-  .header {
-    height: 421px;
-    background-image: url(../imagen/descarga.jfif);
+
+  @media all and (min-width: 768px) {
+    .header {
+      height: 421px;
+      background-image: url(../imagen/descarga.jfif);
+    }
+
+    .claim {
+      height: 80px;
+      width: 441px;
+      bottom: 0px;
+      opacity: 0.8;
+      position: absolute;
+    }
   }
 
-  .claim {
-    height: 80px;
-    width: 441px;
-    bottom: 0px;
-    opacity: 0.8;
-    position: absolute;
-  }
-}
+  @media all and (min-width: 1200px) {
+    .header {
+      height: 550;
+      background-image: url(../imagen/descarga.jfif);
+    }
 
-@media all and (min-width: 1200px) {
-  .header {
-    height: 550;
-    background-image: url(../imagen/descarga.jfif);
+    .claim {
+      height: 90px;
+      font-size: 24px;
+      width: 574px;
+      opacity: 0.8;
+      position: absolute;
+      line-height: 30px;
+    }
   }
-  .claim {
-    height: 90px;
-    font-size: 24px;
-    width: 574px;
-    opacity: 0.8;
-    position: absolute;
-    line-height: 30px;
-  }
-}
