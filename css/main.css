@@ -43,6 +43,7 @@ section {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 p {
@@ -106,9 +107,11 @@ header nav {
   background-color: white;
   justify-content: center;
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: OpenSans;
+  padding: 14px 15px 16px 15px;
   text-decoration: solid;
   line-height: 25px;
+  box-sizing: border-box;
 }
 
 /* end header */
@@ -123,7 +126,11 @@ header nav {
   position: relative;
 }
 
-.square {
+<<<<<<< HEAD=======.parrafo {
+  line-height: 24px;
+}
+
+>>>>>>>f51a84fcdf630710a06613ed8a5a93132432c8ab .square {
   width: 30px;
   height: 30px;
   background: white;
@@ -344,3 +351,45 @@ h3 {
       line-height: 30px;
     }
   }
+}
+
+@media all and (min-width: 768px) {
+  .about {
+    width: 768px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .f-d {
+    width: 768px;
+    display: flex;
+  }
+
+  .debilidades {
+    width: 50%;
+  }
+
+  .fortalezas {
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .about {
+    width: 1200px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .f-d {
+    width: 1200px;
+  }
+
+  .debilidades {
+    width: 50%;
+  }
+
+  .fortalezas {
+    width: 50%;
+  }
+}
