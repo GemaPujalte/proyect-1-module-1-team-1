@@ -7,7 +7,7 @@
 /* style reset */
 
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -47,7 +47,7 @@ ul {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
 }
 
@@ -124,10 +124,6 @@ header nav {
   padding: 45px 0;
   color: #b8b8b9;
   position: relative;
-}
-
-.parrafo {
-  line-height: 24px;
 }
 
 .square {
@@ -265,7 +261,7 @@ h3 {
 .footer-copyright {
   font-weight: normal;
   color: var(--gunmetal);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-align: center;
   margin: 0;
