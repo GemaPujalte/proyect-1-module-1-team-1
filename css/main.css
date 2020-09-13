@@ -43,6 +43,7 @@ section {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 p {
@@ -109,6 +110,7 @@ header nav {
   font-family: 'Open Sans', sans-serif;
   text-decoration: solid;
   line-height: 25px;
+  box-sizing: border-box;
 }
 /* end header */
 
@@ -148,7 +150,9 @@ header nav {
   margin-bottom: 45px;
   padding-left: 15px;
   font-family: OpenSans;
+  font-size: 16px;
   width: 320px;
+  justify-content: center;
 }
 
 /* end fortalezas y debilidades */
