@@ -271,19 +271,19 @@ h3 {
     width: auto;
     padding: 0 6%;
   }
+}
 
-  @media all and (min-width: 1200px) {
-    h1 {
-      padding: 1rem 12%;
-    }
+@media all and (min-width: 1200px) {
+  h1 {
+    padding: 1rem 12%;
+  }
 
-    header nav {
-      padding: 0 12%;
-    }
+  header nav {
+    padding: 0 12%;
+  }
 
-    .about {
-      width: 50%;
-    }
+  .about {
+    width: 50%;
   }
 }
 
