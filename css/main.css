@@ -310,7 +310,7 @@ h3 {
 
   /* header - tablet */
   .header {
-    height: 55%;
+    height: 421px;
     background-image: url(../imagen/descarga.jfif);
   }
 
@@ -391,12 +391,12 @@ h3 {
   }
 
   .claim {
-    height: 12px;
+    height: 90px;
     font-size: 24px;
     bottom: 0px;
     width: 75%;
-    margin-left: 18%;
-    margin-right: 64%;
+    margin-left: 138px;
+    margin-right: 488px;
     opacity: 0.8;
     line-height: 30px;
   }
