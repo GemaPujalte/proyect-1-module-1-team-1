@@ -107,7 +107,7 @@ header nav {
   position: absolute;
   background-color: white;
   font-size: 18px;
-  font-family: OpenSans;
+  font-family: "OpenSans";
   padding: 14px 15px 16px;
   line-height: 25px;
   box-sizing: border-box;
@@ -189,7 +189,7 @@ h3 {
 }
 
 .imagen img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .adalaber {
