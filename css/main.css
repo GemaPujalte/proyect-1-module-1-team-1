@@ -344,6 +344,20 @@ h3 {
   }
   /* end fortalezas y debilidades - tablet*/
 
+  /* quienes somos - tablet */
+  .adalab_left {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    text-align: right;
+  }
+
+  .adalab_right {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+  }
+  /* end qienes somos - tablet */
+
   /* footer - tablet */
   .footer {
     position: relative;
@@ -431,21 +445,8 @@ h3 {
   /* quienes somos - desktop */
   .adalaber {
     display: flex;
-    flex-direction: column;
     width: 85%;
     margin: 0 auto;
-  }
-
-  .adalab_left {
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    text-align: right;
-  }
-
-  .adalab_right {
-    flex-direction: row;
-    justify-content: flex-end;
-    text-align: left;
   }
 
   .imagen {
