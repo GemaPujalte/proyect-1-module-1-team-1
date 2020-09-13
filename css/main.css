@@ -126,11 +126,7 @@ header nav {
   position: relative;
 }
 
-<<<<<<< HEAD=======.parrafo {
-  line-height: 24px;
-}
-
->>>>>>>f51a84fcdf630710a06613ed8a5a93132432c8ab .square {
+.square {
   width: 30px;
   height: 30px;
   background: white;
@@ -204,14 +200,14 @@ h3 {
 .texto {
   font-size: 16px;
   background-color: white;
-  flex: 2
+  flex: 2;
 }
 
-.adalab_left>.texto {
+.adalab_left > .texto {
   margin-right: 50px;
 }
 
-.adalab_right>.texto {
+.adalab_right > .texto {
   margin-left: 50px;
 }
 
@@ -278,21 +274,20 @@ h3 {
     padding: 0 6%;
   }
 
-  .us {}
+  .us {
+  }
 
   .adalaber {
     display: flex;
     flex-direction: column;
     width: 85%;
     margin: 0 auto;
-
   }
 
   .adalab_left {
     flex-direction: row-reverse;
     justify-content: flex-start;
     text-align: right;
-
   }
 
   .adalab_right {
@@ -319,7 +314,6 @@ h3 {
       width: 50%;
     }
   }
-
 
   @media all and (min-width: 768px) {
     .header {
