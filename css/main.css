@@ -20,7 +20,7 @@ h1 {
   color: white;
   font-size: 1rem;
   font-weight: 500;
-  padding: 1rem 39%;
+  padding: 1rem 0;
   background: rgba(9 157 141 / 0.95);
   width: 100%;
 }
@@ -60,9 +60,10 @@ header {
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   align-content: center;
+  text-align: center;
   text-transform: uppercase;
   position: fixed;
   top: 0;
@@ -140,7 +141,7 @@ header nav {
   background-color: #f1f1f1;
   color: #54585a;
   margin: 0 auto;
-  padding: 30px 15px 45px;
+  padding: 30px 5% 45px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -188,7 +189,7 @@ h3 {
   display: flex;
   flex-direction: column;
   font-family: "OpenSans", sans-serif;
-  margin: 0 15px 30px;
+  margin: 0 auto 30px;
 }
 
 .texto {
@@ -273,6 +274,7 @@ h3 {
   /* hero - tablet */
   header {
     background: rgba(9 157 141 / 0.95);
+    flex-direction: row;
   }
 
   h1 {
@@ -296,6 +298,8 @@ h3 {
 
   .claim {
     font-size: 18px;
+    font-weight: 600;
+    color: black;
     bottom: 0px;
     width: 57%;
     margin-left: 6%;
@@ -307,16 +311,13 @@ h3 {
 
   /* fortalezas y debilidades - tablet */
   .f-d {
-    width: 768px;
     display: flex;
+    justify-content: space-between;
   }
 
-  .debilidades {
-    width: 50%;
-  }
-
+  .debilidades,
   .fortalezas {
-    width: 50%;
+    width: 43%;
   }
   /* end fortalezas y debilidades - tablet*/
 
@@ -373,8 +374,9 @@ h3 {
 
   .menu-footer {
     text-align: right;
-    transform: translate(300px, -43px);
-    padding-right: 45px;
+    position: absolute;
+    right: 50px;
+    top: 24px;
   }
 
   /* end footer - tablet */
@@ -403,7 +405,6 @@ h3 {
     height: 90px;
     font-size: 24px;
     bottom: 0px;
-    width: 75%;
     margin-left: 138px;
     margin-right: 488px;
     opacity: 0.8;
@@ -418,24 +419,13 @@ h3 {
   /* end about - desktop */
 
   /* fortalezas y debilidades - desktop */
-  .f-d {
-    width: 1200px;
-  }
 
-  .debilidades {
-    width: 50%;
-  }
-
-  .fortalezas {
-    width: 50%;
-  }
   /* end fortalezas y debilidades - desktop */
 
   /* quienes somos - desktop */
   .adalaber {
     display: flex;
     width: 85%;
-    margin: 0 auto;
   }
 
   .imagen {
@@ -451,18 +441,17 @@ h3 {
   }
   .copyrigth-container {
     position: absolute;
-    left: 195px;
+    left: 138px;
   }
 
   .footer-logo-adalab {
-    left: 182px;
-    top: 44px;
+    left: 138px;
   }
 
   .menu-footer {
-    width: 324px;
     position: absolute;
     bottom: 15px;
+    right: 138px;
   }
   /* end footer - desktop */
 }
