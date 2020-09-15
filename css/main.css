@@ -8,14 +8,11 @@
 
 * {
   font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-}
-
-main {
-  overflow: hidden;
 }
 
 h1 {
@@ -98,23 +95,20 @@ header nav {
 .header {
   position: relative;
   height: 421px;
-  width: 100%;
   background-image: url(../imagen/descarga.jfif);
 }
 
 .claim {
   height: 80px;
   width: 290px;
-  bottom: -30px;
-  margin-left: 15px;
-  margin-right: 15px;
+  bottom: -50px;
+  margin: 0 15px;
   position: absolute;
   background-color: white;
   font-size: 18px;
-  font-family: "OpenSans";
+  font-family: "Open Sans", sans-serif;
   padding: 14px 15px 16px;
   line-height: 25px;
-  box-sizing: border-box;
 }
 
 /* end header */
@@ -145,14 +139,9 @@ header nav {
 .f-d {
   background-color: #f1f1f1;
   color: #54585a;
-  width: 50%;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-right: 15px;
-  margin-bottom: 45px;
-  padding-left: 15px;
-  font-family: OpenSans;
-  width: 320px;
+  padding: 30px 15px 45px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* end fortalezas y debilidades */
@@ -187,9 +176,8 @@ h3 {
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
   display: block;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
-  flex: 1;
 }
 
 .imagen img {
@@ -197,22 +185,16 @@ h3 {
 }
 
 .adalaber {
+  display: flex;
   flex-direction: column;
   font-family: "OpenSans", sans-serif;
+  margin: 0 15px 30px;
 }
 
 .texto {
   font-size: 16px;
   background-color: white;
   flex: 2;
-}
-
-.adalab_left > .texto {
-  margin-right: 50px;
-}
-
-.adalab_right > .texto {
-  margin-left: 50px;
 }
 
 .links {
@@ -252,11 +234,6 @@ h3 {
   align-items: center;
 }
 
-.copyrigth-container {
-  width: 172px;
-  height: 20px;
-}
-
 .footer-copyright {
   font-weight: normal;
   color: var(--gunmetal);
@@ -287,7 +264,6 @@ h3 {
 .link-logo {
   width: 116px;
   height: 45px;
-  padding-top: 20px;
 }
 
 /* end footer */
@@ -345,16 +321,29 @@ h3 {
   /* end fortalezas y debilidades - tablet*/
 
   /* quienes somos - tablet */
+
   .adalab_left {
     flex-direction: row-reverse;
     justify-content: flex-start;
     text-align: right;
   }
 
+  .adalab_left .links {
+    justify-content: flex-end;
+  }
+
   .adalab_right {
     flex-direction: row;
     justify-content: flex-end;
     text-align: left;
+  }
+
+  .adalab_right .links {
+    justify-content: flex-start;
+  }
+
+  .imagen {
+    margin: 0 30px;
   }
   /* end qienes somos - tablet */
 
