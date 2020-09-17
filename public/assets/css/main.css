@@ -80,7 +80,9 @@ header nav {
 .header {
   position: relative;
   height: 421px;
-  background-image: url(../images/IMG_0779.PNG); }
+  background-image: url(../images/IMG_0779.png);
+  background-position-y: bottom;
+  background-size: cover; }
 
 .claim {
   height: 80px;
@@ -245,7 +247,7 @@ h3 {
   /* header - tablet */
   .header {
     height: 421px;
-    background-image: url(../imagen/descarga.jfif); }
+    background-image: url(../images/IMG_0779.png); }
   .claim {
     font-size: 18px;
     font-weight: 600;
@@ -317,7 +319,7 @@ h3 {
   /* header - desktop */
   .header {
     height: 550px;
-    background-image: url(../imagen/descarga.jfif); }
+    background-image: url(../images/IMG_0779.png); }
   .claim {
     height: 90px;
     font-size: 24px;

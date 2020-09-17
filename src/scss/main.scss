@@ -96,7 +96,9 @@ header nav {
 .header {
   position: relative;
   height: 421px;
-  background-image: url(../images/IMG_0779.PNG);
+  background-image: url(../images/IMG_0779.png);
+  background-position-y: bottom;
+  background-size: cover;
 }
 
 .claim {
@@ -296,7 +298,7 @@ h3 {
   /* header - tablet */
   .header {
     height: 421px;
-    background-image: url(../imagen/descarga.jfif);
+    background-image: url(../images/IMG_0779.png);
   }
 
   .claim {
@@ -408,7 +410,7 @@ h3 {
   /* header - desktop */
   .header {
     height: 550px;
-    background-image: url(../imagen/descarga.jfif);
+    background-image: url(../images/IMG_0779.png);
   }
 
   .claim {
