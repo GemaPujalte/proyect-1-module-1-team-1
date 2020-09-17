@@ -1,0 +1,361 @@
+:root {
+  --blue-green: #099d8d;
+  --light-green: #14d9c4;
+  --gunmetal: #b8b8b9; }
+
+/* style reset */
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 0;
+  background: rgba(9, 157, 141, 0.95);
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+h2 {
+  margin-top: 45px;
+  color: var(--blue-green);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+section {
+  text-align: center;
+  width: 100%; }
+
+ul {
+  padding: 0;
+  list-style: none; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal; }
+
+/* end reset */
+/* menu */
+header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  z-index: 3000; }
+
+header nav {
+  width: 100%;
+  padding: 0 0.25rem;
+  background: rgba(20, 217, 196, 0.95); }
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 1rem auto; }
+
+.link {
+  color: white;
+  padding: 0 0.5rem; }
+
+/* end menu */
+/* header */
+.header {
+  position: relative;
+  height: 421px;
+  background-image: url(../images/IMG_0779.PNG); }
+
+.claim {
+  height: 80px;
+  width: 290px;
+  bottom: -50px;
+  margin: 0 15px;
+  position: absolute;
+  background-color: white;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding: 14px 15px 16px;
+  line-height: 25px; }
+
+/* end header */
+/* equipo */
+.about {
+  width: 88%;
+  margin: 0 auto;
+  padding: 45px 0;
+  color: #b8b8b9;
+  position: relative; }
+
+.square {
+  width: 30px;
+  height: 30px;
+  background: white;
+  position: absolute;
+  bottom: -15px;
+  left: calc(50% - 15px);
+  transform: rotate(45deg); }
+
+/* end equipo */
+/* fortalezas y debilidades */
+.f-d {
+  background-color: #f1f1f1;
+  color: #54585a;
+  margin: 0 auto;
+  padding: 30px 5% 45px;
+  font-family: "Open Sans", sans-serif; }
+
+/* end fortalezas y debilidades */
+h3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-family: Rubik;
+  font-size: 22px;
+  color: var(--blue-green); }
+
+/* end fortalezas y debilidades */
+/* quienes somos */
+.us {
+  font-family: Rubik;
+  flex-direction: row; }
+
+.quienes_somos {
+  height: 45px;
+  font-family: Rubik;
+  font-size: 24px;
+  color: var(--blue-green);
+  text-align: center; }
+
+.imagen {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  display: block;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.imagen img {
+  width: 100%; }
+
+.adalaber {
+  display: flex;
+  flex-direction: column;
+  font-family: "OpenSans", sans-serif;
+  margin: 0 15px 30px; }
+
+.texto {
+  font-size: 16px;
+  background-color: white;
+  flex: 2; }
+
+.links {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.fab {
+  color: #14d9c4;
+  display: flex;
+  width: 31px;
+  height: 30px; }
+
+.fas {
+  color: #14d9c4;
+  display: flex;
+  width: 31px;
+  height: 30px; }
+
+/* end quienes somos */
+/* footer */
+.footer {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-top: solid 1px #b8b8b9;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.footer-copyright {
+  font-weight: normal;
+  color: var(--gunmetal);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 0; }
+
+.menu-footer {
+  width: 114px;
+  opacity: 0.75;
+  text-align: center;
+  color: #b8b8b9;
+  font-family: "OpenSans";
+  font-size: 14px;
+  margin: 0px; }
+
+.li-bullets {
+  list-style: none; }
+
+.li-bullets a {
+  color: var(--gunmetal); }
+
+.link-logo {
+  width: 116px;
+  height: 45px; }
+
+/* end footer */
+/* tablet */
+@media all and (min-width: 768px) {
+  /* hero - tablet */
+  header {
+    background: rgba(9, 157, 141, 0.95);
+    flex-direction: row; }
+  h1 {
+    background: none;
+    width: auto;
+    padding: 1rem 6%; }
+  header nav {
+    background: none;
+    width: auto;
+    padding: 0 6%; }
+  /* end hero - tablet */
+  /* header - tablet */
+  .header {
+    height: 421px;
+    background-image: url(../imagen/descarga.jfif); }
+  .claim {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    bottom: 0px;
+    width: 57%;
+    margin-left: 6%;
+    margin-right: 37%;
+    opacity: 0.8;
+    line-height: 25px; }
+  /* end header - tablet */
+  /* fortalezas y debilidades - tablet */
+  .f-d {
+    display: flex;
+    justify-content: space-between; }
+  .debilidades,
+  .fortalezas {
+    width: 43%; }
+  /* end fortalezas y debilidades - tablet*/
+  /* quienes somos - tablet */
+  .adalab_left {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    text-align: right; }
+  .adalab_left .links {
+    justify-content: flex-end; }
+  .adalab_right {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left; }
+  .adalab_right .links {
+    justify-content: flex-start; }
+  .imagen {
+    margin: 0 30px; }
+  /* end qienes somos - tablet */
+  /* footer - tablet */
+  .footer {
+    position: relative;
+    height: 170px; }
+  .copyrigth-container {
+    position: absolute;
+    left: 60px;
+    top: 30px; }
+  .footer-copyright {
+    left: 20px;
+    width: 172px;
+    height: 20px; }
+  .footer-logo-adalab {
+    position: absolute;
+    left: 50px;
+    top: 70px; }
+  .menu-footer {
+    text-align: right;
+    line-height: 30px;
+    position: absolute;
+    right: 50px;
+    top: 24px; }
+  /* end footer - tablet */ }
+
+/* end tablet */
+/* desktop */
+@media all and (min-width: 1200px) {
+  /* hero - desktop */
+  h1 {
+    padding: 1rem 12%; }
+  header nav {
+    padding: 0 12%; }
+  /* end hero - desktop */
+  /* header - desktop */
+  .header {
+    height: 550px;
+    background-image: url(../imagen/descarga.jfif); }
+  .claim {
+    height: 90px;
+    font-size: 24px;
+    bottom: 0px;
+    margin-left: 138px;
+    margin-right: 488px;
+    opacity: 0.8;
+    line-height: 30px; }
+  /* end header - desktop */
+  /* about - desktop */
+  .about {
+    width: 50%; }
+  /* end about - desktop */
+  /* fortalezas y debilidades - desktop */
+  /* end fortalezas y debilidades - desktop */
+  /* quienes somos - desktop */
+  .adalaber {
+    display: flex;
+    width: 85%; }
+  .imagen {
+    width: 278px;
+    height: 278px; }
+  /* end quienes somos - desktop */
+  /* footer - desktop */
+  .footer {
+    width: 100%;
+    height: 161px; }
+  .copyrigth-container {
+    position: absolute;
+    left: 138px; }
+  .footer-logo-adalab {
+    left: 138px; }
+  .menu-footer {
+    position: absolute;
+    bottom: 15px;
+    right: 138px; }
+  /* end footer - desktop */ }
+
+/* end desktop */
+
+/*# sourceMappingURL=main.css.map */
