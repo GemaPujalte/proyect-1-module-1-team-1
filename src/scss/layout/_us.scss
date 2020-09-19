@@ -1,0 +1,99 @@
+.us {
+    font-family: $title-font;
+    flex-direction: row;
+}
+
+.quienes_somos {
+    height: 45px;
+    font-family: $title-font;
+    font-size: 24px;
+    color: $dark-green;
+    text-align: center;
+}
+
+.imagen {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: solid 5px rgba(0, 0, 0, 0.08);
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    flex: 1;
+
+    @media all and (min-width:768px) {
+        margin: 0 30px;
+    }
+
+    @media all and (min-width:1280px) {
+        width: 278px;
+        height: 278px;
+    }
+}
+
+
+
+.imagen img {
+    width: 100%;
+}
+
+.adalaber {
+    display: flex;
+    flex-direction: column;
+    font-family: $text-font;
+    margin: 0 15px 30px;
+
+    @media all and (min-width:1280px) {
+        display: flex;
+        width: 85%;
+    }
+}
+
+.texto {
+    font-size: 16px;
+    background-color: $background-texto;
+    flex: 2;
+}
+
+.links {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fab {
+    color: $light-green;
+    display: flex;
+    width: 31px;
+    height: 30px;
+}
+
+.fas {
+    color: $light-green;
+    display: flex;
+    width: 31px;
+    height: 30px;
+}
+
+@media all and(min-width: 768px) {
+    .adalab_left {
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        text-align: right;
+    }
+
+    .adalab_left .links {
+        justify-content: flex-end;
+    }
+
+    .adalab_right {
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: left;
+    }
+
+    .adalab_right .links {
+        justify-content: flex-start;
+    }
+}
