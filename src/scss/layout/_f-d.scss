@@ -1,0 +1,26 @@
+.f-d {
+  background-color: $background-grey;
+  display: flex;
+  flex-direction: column;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: $dark-green;
+    line-height: 2.05;
+  }
+  .text-block {
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+    @media all and (min-width: 768px) {
+      width: 43%;
+    }
+  }
+}
