@@ -1,0 +1,19 @@
+.about {
+  width: 88%;
+  margin: 0 auto;
+  color: $dark-grey;
+  position: relative;
+
+  .square {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 15px);
+    transform: rotate(45deg);
+  }
+  @media all and (min-width: 1200px) {
+    width: 50%;
+  }
+}
