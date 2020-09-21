@@ -7,29 +7,20 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 10%;
   align-items: center;
 
   @media all and (min-width: 768px) {
     position: relative;
     height: 170px;
+    align-items: initial;
   }
   @media all and (min-width: 1200px) {
     width: 100%;
     height: 161px;
   }
 
-  .copyright-container {
-    @media all and (min-width: 768px) {
-      position: absolute;
-      left: 60px;
-      top: 30px;
-    }
-    @media all and (min-width: 1200px) {
-      position: absolute;
-      left: 138px;
-    }
-  }
   &-copyright {
     font-weight: normal;
     color: $dark-grey;
@@ -39,17 +30,21 @@
     margin: 0;
 
     @media all and (min-width: 768px) {
+      text-align: left;
       left: 20px;
       width: 172px;
       height: 20px;
     }
   }
+
   &-menu {
     width: 114px;
     opacity: 0.75;
     text-align: center;
     color: $light-grey;
     font-family: $text-font;
+    text-transform: uppercase;
+    font-weight: 600;
     font-size: 14px;
     margin: 0px;
 
@@ -76,7 +71,7 @@
   }
 }
 
-.link-logo {
+.footer-logo-adalab {
   width: 116px;
   height: 45px;
 }
