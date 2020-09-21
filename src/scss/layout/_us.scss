@@ -1,99 +1,96 @@
 .us {
-    font-family: $title-font;
-    flex-direction: row;
+  margin: 0 auto;
 }
 
 .quienes_somos {
-    height: 45px;
-    font-family: $title-font;
-    font-size: 24px;
-    color: $dark-green;
-    text-align: center;
+  height: 45px;
+  font-family: $title-font;
+  font-size: 24px;
+  color: $dark-green;
+  text-align: center;
 }
 
 .imagen {
-    width: 180px;
-    height: 180px;
-    border-radius: 4px;
-    border: solid 5px rgba(0, 0, 0, 0.08);
-    display: block;
-    margin: 0 auto;
-    overflow: hidden;
-    flex: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  margin: 5% auto;
+  overflow: hidden;
 
-    @media all and (min-width:768px) {
-        margin: 0 30px;
-    }
+  @media all and (min-width: 768px) {
+    margin: 0 30px;
+  }
 
-    @media all and (min-width:1280px) {
-        width: 278px;
-        height: 278px;
-    }
-}
-
-
-
-.imagen img {
-    width: 100%;
+  @media all and (min-width: 1280px) {
+    width: 278px;
+    height: 278px;
+  }
 }
 
 .adalaber {
-    display: flex;
-    flex-direction: column;
-    font-family: $text-font;
-    margin: 0 15px 30px;
+  display: flex;
+  flex-direction: column;
 
-    @media all and (min-width:1280px) {
-        display: flex;
-        width: 85%;
-    }
+  font-family: $text-font;
+  margin: 0 auto;
+
+  @media all and (min-width: 1280px) {
+    display: flex;
+    width: 85%;
+  }
 }
 
 .texto {
-    font-size: 16px;
-    background-color: $background-cards;
-    flex: 2;
+  font-size: 16px;
+  background-color: $background-cards;
+  flex: 2;
+
+  &-title {
+    line-height: 2.25;
+  }
 }
 
 .links {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5% 0;
 }
 
 .fab {
-    color: $light-green;
-    display: flex;
-    width: 31px;
-    height: 30px;
+  color: $light-green;
+  display: flex;
+  width: 31px;
+  height: 30px;
 }
 
 .fas {
-    color: $light-green;
-    display: flex;
-    width: 31px;
-    height: 30px;
+  color: $light-green;
+  display: flex;
+  width: 31px;
+  height: 30px;
 }
 
 @media all and(min-width: 768px) {
-    .adalab_left {
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        text-align: right;
-    }
+  .adalab_left {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    text-align: right;
+  }
 
-    .adalab_left .links {
-        justify-content: flex-end;
-    }
+  .adalab_left .links {
+    justify-content: flex-end;
+  }
 
-    .adalab_right {
-        flex-direction: row;
-        justify-content: flex-end;
-        text-align: left;
-    }
+  .adalab_right {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+  }
 
-    .adalab_right .links {
-        justify-content: flex-start;
-    }
+  .adalab_right .links {
+    justify-content: flex-start;
+  }
 }
