@@ -10,55 +10,64 @@ header {
   position: fixed;
   top: 0;
   z-index: 3000;
-}
 
-header .menu-container {
-  width: 100%;
-  padding: 0 0.25rem;
-  background: $light-green;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  font-size: 15px;
-  font-weight: 500;
-  margin: 1rem auto;
-}
-
-.link {
-  color: $background-cards;
-  padding: 0 0.5rem;
-}
-
-@media all and (min-width: 768px) {
-  /* hero - tablet */
-  header {
-    background: rgba(9, 157, 141, 0.95);
+  @media all and (min-width: 768px) {
+    background: $translucen-dark-green;
     flex-direction: row;
   }
 
   .title {
-    background: none;
-    width: auto;
-    padding: 1rem 6%;
+    margin: 0;
+    color: $background-cards;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    background: $translucen-dark-green;
+    width: 100%;
+
+    @media all and (min-width: 768px) {
+      background: none;
+      width: auto;
+      padding: 1rem 6%;
+    }
+
+    @media all and (min-width: 1200px) {
+      padding: 1rem 12%;
+    }
+  }
+  .menu-container {
+    width: 100%;
+    padding: 0 0.25rem;
+    font-size: 15px;
+    background: $translucen-light-green;
+
+    @media all and (min-width: 768px) {
+      background: none;
+      width: auto;
+      padding: 0 6%;
+    }
+
+    @media all and (min-width: 1200px) {
+      padding: 0 12%;
+    }
   }
 
-  header .menu-container {
-    background: none;
-    width: auto;
-    padding: 0 6%;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  /* hero - desktop */
-  h1 {
-    padding: 1rem 12%;
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 1rem auto;
   }
 
-  header nav {
-    padding: 0 12%;
+  .link {
+    color: $background-cards;
+
+    font-family: $title-font;
+
+    @media all and (min-width: 768px) {
+      padding: 0 0.5rem;
+    }
   }
 }
