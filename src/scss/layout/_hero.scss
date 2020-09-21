@@ -52,13 +52,16 @@ header nav {
         padding: 0 6%;
     }
 
-    @media all and (min-width: 1200px) {
+}
 
-        /* hero - desktop */
-        h1 {
-            padding: 1rem 12%;
-        }
+@media all and (min-width: 1200px) {
 
-        header nav {
-            padding: 0 12%;
-        }
+    /* hero - desktop */
+    h1 {
+        padding: 1rem 12%;
+    }
+
+    header nav {
+        padding: 0 12%;
+    }
+}
