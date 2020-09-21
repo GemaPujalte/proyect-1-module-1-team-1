@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=11.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <link rel="stylesheet" href="../../public/assets/css/contact.css" />
+  </head>
 
-<body>
-    <main>
-        <h3 class="form__title">Contacto</h3>
-        <p class="form__p">
-            Lorem ips dolor! Possimus quaerat in, dolorem sequi modi id rem iure numquam suscipit nulla
-            vel ipsam.
-        </p>
-        <small>Todos los campos marcados <span class="asterisk">*</span> son obligatorios</small>
-    </main>
-    <form class="form" action="/signup" method="get">
-        <label for="name">Nombre completo *</label>
-        <input class="form__inpt" type="text" name="name" id="name" placeholder="Nombre" required />
-
-        <label for="email">Email *</label>
-        <input class="form__inpt" type="email" name="email" id="email" placeholder="nombre.apellido@mail.com"
-            required />
-
-        <label for="phone">Teléfono</label>
-        <input class="form__inpt" type="tel" name="phone" id="phone" placeholder="Ej:123456789" />
-
-        <label for="message">Mensaje *</label>
-        <textarea class="textarea" name="text" id="text" cols="30" rows="10" required></textarea>
-
-        <input class="form__inpt" type="submit" name="send" id="send" value="ENVIAR" />
-    </form>
-</body>
-
+  <body>
+    <include src="./partials/contact-hero.html"></include>
+    <include src="./partials/contact-main.html"></include>
+    <include src="./partials/contact-footer.html"></include>
+  </body>
 </html>

@@ -1,33 +1,9 @@
-body {
-    text-align: center;
-}
+// core
+@import "./core/variables";
+@import "./core/reset";
 
-.form__title {
-    text-transform: uppercase;
-}
-
-.form {
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 9;
-    gap: 12px;
-    padding: 15px;
-    justify-content: center;
-}
-
-.form__inpt {
-    grid-column: span 1;
-    width: 290px;
-    height: 45px;
-}
-
-.textarea {
-    grid-column: span 1;
-    width: 290px;
-    height: 105px;
-}
-
-.asterisk {
-    color: aqua;
-    /* poner variable */
-}
+// Layout
+@import "./layout/contact-hero";
+@import "./layout/contact-header";
+@import "./layout/contact-footer";
+@import "./layout/contact-main";

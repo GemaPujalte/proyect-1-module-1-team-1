@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+  font-family: $text-font;
+}
+
+.form__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: $dark-green;
+  font-family: $title-font;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 9;
+  gap: 12px;
+  padding: 15px;
+  justify-content: center;
+}
+
+.form__inpt {
+  grid-column: span 1;
+  width: 290px;
+  height: 45px;
+}
+
+.textarea {
+  grid-column: span 1;
+  width: 290px;
+  height: 105px;
+}
+
+.form__email {
+  color: $dark-grey;
+}
+
+.asterisk {
+  color: $light-green;
+}
+
+.form__button {
+  background-color: $dark-green;
+  color: $background-cards;
+}
