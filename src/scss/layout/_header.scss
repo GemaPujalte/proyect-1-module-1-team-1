@@ -1,5 +1,44 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  position: relative;
+  height: 421px;
+  background-image: url(../images/header-mobile.png);
+  background-position-y: bottom;
+  background-position-x: center;
+  background-size: cover;
+  margin-bottom: 50px;
+
+  @media all and (min-width: 768px) {
+    margin-bottom: 0;
+    background-image: url(../images/header.png);
+  }
+
+  @media all and (min-width: 1200px) {
+    height: 550px;
+  }
+
+  .claim {
+    width: 90%;
+    bottom: -50px;
+    left: 5%;
+    position: absolute;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 15px 16px;
+    line-height: 25px;
+    font-family: $text-font;
+
+    @media all and (min-width: 768px) {
+      bottom: 0px;
+      left: 6%;
+      width: 57%;
+      background-color: $translucent-white;
+    }
+
+    @media all and (min-width: 1200px) {
+      font-size: 24px;
+      line-height: 30px;
+      left: 12%;
+    }
+  }
 }

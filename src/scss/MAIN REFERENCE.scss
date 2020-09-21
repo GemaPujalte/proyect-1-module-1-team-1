@@ -1,5 +1,4 @@
-:root {
-}
+:root {}
 
 /* style reset */
 
@@ -271,6 +270,7 @@ h3 {
 
 /* tablet */
 @media all and (min-width: 768px) {
+
   /* hero - tablet */
   header {
     background: rgba(9, 157, 141, 0.95);
@@ -391,6 +391,7 @@ h3 {
 
 /* desktop */
 @media all and (min-width: 1200px) {
+
   /* hero - desktop */
   h1 {
     padding: 1rem 12%;
