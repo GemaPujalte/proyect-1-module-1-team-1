@@ -17,6 +17,7 @@
   border: solid 5px rgba(0, 0, 0, 0.08);
   margin: 5% auto;
   overflow: hidden;
+  position: relative;
 
   @media all and (min-width: 768px) {
     margin: 0 30px;
@@ -25,6 +26,41 @@
   @media all and (min-width: 1280px) {
     width: 278px;
     height: 278px;
+  }
+
+  &-ranger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    opacity: 1;
+    transition: opacity ease 1s;
+  }
+
+  &-ranger:hover {
+    opacity: 0;
+  }
+
+  .green-r {
+    background-image: url(../images/green.png);
+  }
+
+  .black-r {
+    background-image: url(../images/black.png);
+  }
+
+  .red-r {
+    background-image: url(../images/red.png);
+  }
+
+  .blue-r {
+    background-image: url(../images/blue.png);
+  }
+
+  .yellow-r {
+    background-image: url(../images/yellow.png);
   }
 }
 
