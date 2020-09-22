@@ -35,6 +35,7 @@ header {
       padding: 1rem 12%;
     }
   }
+
   .menu-container {
     width: 100%;
     padding: 0 0.25rem;
@@ -66,8 +67,19 @@ header {
 
     font-family: $title-font;
 
+
+
     @media all and (min-width: 768px) {
       padding: 0 0.5rem;
+    }
+  }
+
+  a {
+
+    transition: color ease 0.8s;
+
+    &:hover {
+      color: black;
     }
   }
 }
