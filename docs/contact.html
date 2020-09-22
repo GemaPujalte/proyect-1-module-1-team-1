@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=11.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <header>
+      <h1 class="title">Adarangers</h1>
+      <nav class="menu-container">
+        <ul class="menu">
+          <li><a class="link" href="#about">Equipo</a></li>
+          <li><a class="link" href="#us">Quienes somos</a></li>
+          <li><a class="link" href="./contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="header contact-header">
+    </section>
+    <main>
+      <h3 class="form__title">Contacto</h3>
+      <p class="form__p">
+        Para más información sobre las Adarangers, rellene el formulario y nos
+        podremos en contacto tan rápido como nos metamorfoseamos.
+      </p>
+      <small
+        >Todos los campos marcados <span class="asterisk">*</span> son
+        obligatorios</small
+      >
+    </main>
+    <form
+      class="form"
+      action="//formspree.io/gema.pujalte.iglesias@gmail.com"
+      method="POST"
+    >
+      <label for="name">Nombre completo <span class="asterisk">*</span></label>
+      <input
+        class="form__inpt form__inpt--desktop"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Nombre"
+        required
+      />
+
+      <label for="email">Email <span class="asterisk">*</span></label>
+      <input
+        class="form__inpt form__email"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="nombre.apellido@mail.com"
+        required
+      />
+
+      <label for="phone">Teléfono</label>
+      <input
+        class="form__inpt form__inpt--tlf"
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Ej:123456789"
+      />
+
+      <label for="message">Mensaje <span class="asterisk">*</span></label>
+      <textarea
+        class="textarea"
+        placeholder="¿Qué necesitas?"
+        name="text"
+        id="text"
+        cols="30"
+        rows="10"
+        required
+      ></textarea>
+
+      <input
+        class="form__inpt form__button"
+        type="submit"
+        name="send"
+        id="send"
+        value="ENVIAR"
+      />
+    </form>
+
+    <footer class="footer">
+      <small class="copyrigth-container">
+        <span class="footer-copyright">Adaranger &copy; 2020</span>
+      </small>
+      <nav class="footer-menu">
+        <ul>
+          <li class="li-bullets"><a href="#about">Equipo</a></li>
+          <li class="li-bullets"><a href="#us">Quienes somos</a></li>
+          <li class="li-bullets"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!--
+        <nav class="menu-footer">
+        <ul class= "menu">
+          <li class="menu__li-bullets"><a class= "menu__link" href="#about">EQUIPO</a></li>
+          <li class="menu__li-bullets"<a class= "menu__link" href="#us">QUIENES SOMOS</a></li>
+          <li class="menu__li-bullets"><a class= "menu__link" href="#">CONTACTO</a></li>
+        </ul>
+      </nav> 
+    -->
+
+      <div class="footer-logo-adalab">
+        <a href="https://adalab.es/" target="_blank">
+          <img
+            class="link-logo"
+            src="./assets/images/logo-adalab.png"
+            alt="logo Adalab"
+          />
+        </a>
+      </div>
+    </footer>
+
+</body>
+
+</html>
