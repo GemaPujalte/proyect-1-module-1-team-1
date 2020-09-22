@@ -1,67 +1,73 @@
 header {
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    text-align: center;
-    text-transform: uppercase;
-    position: fixed;
-    top: 0;
-    z-index: 3000;
-}
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  z-index: 3000;
 
-header nav {
+  @media all and (min-width: 768px) {
+    background: $translucen-dark-green;
+    flex-direction: row;
+  }
+
+  .title {
+    margin: 0;
+    color: $background-cards;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    background: $translucen-dark-green;
+    width: 100%;
+
+    @media all and (min-width: 768px) {
+      background: none;
+      width: auto;
+      padding: 1rem 6%;
+    }
+
+    @media all and (min-width: 1200px) {
+      padding: 1rem 12%;
+    }
+  }
+  .menu-container {
     width: 100%;
     padding: 0 0.25rem;
-    background: $light-green;
-}
+    font-size: 15px;
+    background: $translucen-light-green;
 
-.menu {
+    @media all and (min-width: 768px) {
+      background: none;
+      width: auto;
+      padding: 0 6%;
+    }
+
+    @media all and (min-width: 1200px) {
+      padding: 0 12%;
+    }
+  }
+
+  .menu {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     font-size: 15px;
     font-weight: 500;
     margin: 1rem auto;
-}
+  }
 
-.link {
+  .link {
     color: $background-cards;
-    padding: 0 0.5rem;
-}
 
-@media all and (min-width: 768px) {
+    font-family: $title-font;
 
-    /* hero - tablet */
-    header {
-        background: rgba(9, 157, 141, 0.95);
-        flex-direction: row;
+    @media all and (min-width: 768px) {
+      padding: 0 0.5rem;
     }
-
-    h1 {
-        background: none;
-        width: auto;
-        padding: 1rem 6%;
-    }
-
-    header nav {
-        background: none;
-        width: auto;
-        padding: 0 6%;
-    }
-
-}
-
-@media all and (min-width: 1200px) {
-
-    /* hero - desktop */
-    h1 {
-        padding: 1rem 12%;
-    }
-
-    header nav {
-        padding: 0 12%;
-    }
+  }
 }
