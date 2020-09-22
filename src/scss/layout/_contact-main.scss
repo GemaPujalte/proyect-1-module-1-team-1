@@ -8,6 +8,14 @@
   text-transform: uppercase;
   color: $dark-green;
   font-family: $title-font;
+
+  @media all and (min-width: 768px) {
+    width: 100%;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 50.1%;
+  }
 }
 
 .form {
@@ -23,16 +31,53 @@
   grid-column: span 1;
   width: 290px;
   height: 45px;
+
+  @media all and (min-width: 768px) {
+    width: 442px;
+    height: 45px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 442px;
+    height: 45px;
+  }
+}
+
+.form__inpt--desktop {
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    height: 45px;
+  }
 }
 
 .textarea {
   grid-column: span 1;
-  width: 290px;
-  height: 105px;
+
+  @media all and (min-width: 768px) {
+    width: 442px;
+    height: 105px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    height: 105px;
+  }
 }
 
 .form__email {
   color: $dark-grey;
+
+  @media all and (min-width: 1200px) {
+    width: 395px;
+    height: 45px;
+  }
+}
+
+.form__inpt--tlf {
+  @media all and (min-width: 1200px) {
+    width: 162px;
+    height: 45px;
+  }
 }
 
 .asterisk {
@@ -42,4 +87,14 @@
 .form__button {
   background-color: $dark-green;
   color: $background-cards;
+  border-radius: 5px;
+  border: none;
+
+  @media all and (min-width: 768px) {
+    width: 26.8%;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 23.2%;
+  }
 }
