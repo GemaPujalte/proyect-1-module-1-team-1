@@ -1,0 +1,64 @@
+<main>
+  <h3 class="form__title">Contacto</h3>
+  <p class="form__p">
+    Para más información sobre las Adarangers, rellene el formulario y nos
+    podremos en contacto tan rápido como nos metamorfoseamos.
+  </p>
+  <small
+    >Todos los campos marcados <span class="asterisk">*</span> son
+    obligatorios</small
+  >
+</main>
+<form
+  class="form"
+  action="//formspree.io/gema.pujalte.iglesias@gmail.com"
+  method="POST"
+>
+  <label for="name">Nombre completo <span class="asterisk">*</span></label>
+  <input
+    class="form__inpt form__inpt--desktop"
+    type="text"
+    name="name"
+    id="name"
+    placeholder="Nombre"
+    required
+  />
+
+  <label for="email">Email <span class="asterisk">*</span></label>
+  <input
+    class="form__inpt form__email"
+    type="email"
+    name="email"
+    id="email"
+    placeholder="nombre.apellido@mail.com"
+    required
+  />
+
+  <label for="phone">Teléfono</label>
+  <input
+    class="form__inpt form__inpt--tlf"
+    type="tel"
+    name="phone"
+    id="phone"
+    placeholder="Ej:123456789"
+  />
+
+  <label for="message">Mensaje <span class="asterisk">*</span></label>
+  <textarea
+    class="textarea"
+    placeholder="¿Qué necesitas?"
+    name="text"
+    id="text"
+    cols="30"
+    rows="10"
+    required
+  ></textarea>
+
+  <input
+    class="form__inpt form__button"
+    type="submit"
+    name="send"
+    id="send"
+    value="ENVIAR"
+  />
+</form>
