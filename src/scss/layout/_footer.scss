@@ -22,7 +22,7 @@
 
   &-copyright {
     font-weight: normal;
-    color: $dark-grey;
+    color: $light-grey;
     font-family: $text-font;
     font-size: 14px;
     text-align: center; /* text align: left en media */
@@ -37,14 +37,15 @@
   }
 
   &-menu {
-    width: 114px;
     opacity: 0.75;
     text-align: center;
     color: $light-grey;
     font-family: $title-font;
     text-transform: uppercase;
+    font-weight: 500;
     font-size: 14px;
     margin: 0px;
+    line-height: 1.5;
 
     @media all and (min-width: 768px) {
       text-align: right;
