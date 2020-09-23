@@ -27,6 +27,11 @@ img {
 label {
   color: $dark-grey;
   display: flex;
+  grid-column: span 1;
+  grid-row: span 1;
+  @media all and (min-width: 1200px) {
+    grid-column: span 3;
+  }
 }
 
 // general style
