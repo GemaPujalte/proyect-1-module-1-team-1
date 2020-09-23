@@ -25,6 +25,11 @@
   gap: 12px;
   padding: 15px;
   justify-content: center;
+  font-family: $text-font;
+  color: $dark-grey;
+  @media all and (min-width: 1200px) {
+    grid-template-columns: 2;
+  }
 }
 
 .form__inpt {

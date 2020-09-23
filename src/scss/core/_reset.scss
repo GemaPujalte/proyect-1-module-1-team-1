@@ -24,6 +24,11 @@ img {
   width: 100%;
 }
 
+label {
+  display: flex;
+  flex-direction: column;
+}
+
 // general style
 
 h1,

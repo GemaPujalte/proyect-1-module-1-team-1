@@ -3,6 +3,7 @@
   margin: 0 auto;
   color: $dark-grey;
   position: relative;
+  font-family: $text-font;
 
   .square {
     width: 30px;
@@ -15,5 +16,14 @@
   }
   @media all and (min-width: 1200px) {
     width: 50%;
+  }
+
+  &-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & p {
+      padding: 20px 0;
+    }
   }
 }

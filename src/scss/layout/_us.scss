@@ -67,9 +67,8 @@
 .adalaber {
   display: flex;
   flex-direction: column;
-
   font-family: $text-font;
-  margin: 0 auto;
+  margin: 5% auto;
 
   @media all and (min-width: 768px) {
     display: grid;
