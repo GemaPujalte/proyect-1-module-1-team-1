@@ -41,7 +41,7 @@
 .form__inpt {
   grid-column: span 1;
   height: 45px;
-  padding-left: 15px;
+  padding: 0 15px;
 
   @media all and (min-width: 768px) {
     height: 45px;

@@ -24,6 +24,7 @@ header {
     padding: 1rem 0;
     background: $translucen-dark-green;
     width: 100%;
+    margin-left: 45px;
 
     @media all and (min-width: 768px) {
       background: none;
@@ -67,15 +68,12 @@ header {
 
     font-family: $title-font;
 
-
-
     @media all and (min-width: 768px) {
       padding: 0 0.5rem;
     }
   }
 
   a {
-
     transition: color ease 0.8s;
 
     &:hover {
